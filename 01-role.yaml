@@ -3,6 +3,7 @@ kind: Role
 metadata:
   namespace: roboshop
   name: roboshop-trainee
+  
 rules:
 - apiGroups: [""] # "" indicates the core API group
   resources: ["pods"]
