@@ -4,6 +4,6 @@ metadata:
   namespace: roboshop
   name: roboshop-admin
 rules:
-- apiGroups: ["*"]  # "" indicates the core API group
+- apiGroups: ["*"] # "" indicates the core API group
   resources: ["*"]
   verbs: ["*"]
