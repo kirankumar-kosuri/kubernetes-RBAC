@@ -9,12 +9,12 @@ data:
 
   mapUsers: |
     - groups:
-      - roboshop-admin
+      - roboshop-trainee
       userarn: arn:aws:iam::396199428170:user/praveen
       username: praveen
 
     - groups:
-      - roboshop-trainee
+      - roboshop-admin
       userarn: arn:aws:iam::396199428170:user/kiran
       username: kiran
 kind: ConfigMap
