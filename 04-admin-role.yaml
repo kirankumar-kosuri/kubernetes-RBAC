@@ -1,4 +1,4 @@
-# namsespace level
+  # namsespace level
 apiVersion: rbac.authorization.k8s.io/v1
 kind: Role
 metadata:
@@ -9,11 +9,11 @@ rules:
   resources: ["*"]
   verbs: ["*"]
 ---
-# cluster level
+  # cluster level
 apiVersion: rbac.authorization.k8s.io/v1
 kind:   ClusterRole
 metadata:
-# namespace is not required here because it is cluster level resources
+  # namespace is not required here because it is cluster level resources
   name: roboshop-admin
 rules:
 - apiGroups: ["storage.k8s.io/v1"] # "" indicates the core API group
