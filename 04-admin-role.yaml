@@ -16,7 +16,7 @@ metadata:
   # namespace is not required here because it is cluster level resources
   name: roboshop-admin
 rules:
-- apiGroups: ["storage.k8s.io/v1"] # "" indicates the core API group
+- apiGroups: ["storage.k8s.io"] # "" indicates the core API group
   resources: ["storageclasses"]
   verbs: ["get", "watch", "list"]
 
