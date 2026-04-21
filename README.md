@@ -29,37 +29,7 @@ It helps in securing the cluster by defining:
    ```bash
    git clone https://github.com/kirankumar-kosuri/kubernetes-RBAC.git
 
-# Kubernetes RBAC
-
-This repository demonstrates how to implement **Role-Based Access Control (RBAC)** in Kubernetes using YAML manifests.
-
-RBAC is a critical security feature in Kubernetes that helps control access to cluster resources based on roles assigned to users, groups, or service accounts.
-
-
-## What is RBAC?
-
-RBAC (Role-Based Access Control) is used to define:
-- **Who** can access Kubernetes resources  
-- **What actions** they can perform  
-- **Where** those permissions apply  
-
 It ensures secure and controlled access to your Kubernetes cluster.
-
-
-## RBAC Components
-
-### Role
-Defines permissions within a specific namespace.
-
-### ClusterRole
-Defines permissions at the cluster level (across all namespaces).
-
-### RoleBinding
-Grants a Role to a user, group, or service account within a namespace.
-
-### ClusterRoleBinding
-Grants a ClusterRole across the entire cluster.
-
 
 ## Repository Structure
 ```
